@@ -28,11 +28,6 @@ class LangchainAiRegistry {
           useAgent: useAgent,
         );
       case 'gemini':
-        return _buildPipeline(
-          config,
-          _buildGoogle(config),
-          useAgent: useAgent,
-        );
       case 'deepseek':
       case 'openrouter':
       case 'openai':
